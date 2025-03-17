@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM alpine:latest
 
-RUN apt install unzip -y
+RUN apk update && apk upgrade && apk add bash wget curl
 
 RUN curl -sSL instl.vercel.app/rclone | bash
 
