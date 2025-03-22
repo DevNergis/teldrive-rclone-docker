@@ -18,7 +18,8 @@ PORT=2121
 ```
 - volume
 ```java
-/path/your/rclone.conf:/root/.config/rclone/rclone.conf
+/path/your/rclone.conf:/rclone.conf
+/path/your/cache:/cache
 ```
 - Network
 ```env
