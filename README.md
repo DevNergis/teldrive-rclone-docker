@@ -13,6 +13,8 @@ rclone serve ftp teldrive: --vfs-cache-max-age=24h --vfs-read-chunk-size=12M --v
 ```env
 USER=user_name
 PASSWD=password
+CACHE_SIZE=1G
+PORT=2121
 ```
 - volume
 ```java
